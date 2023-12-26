@@ -1,3 +1,8 @@
+---
+title: 学习
+info: UNIX 相关的内容就在该专栏，包括但不限于 Linux 各种发行版（包括 WSL）、macOS、bash、原理等 UNIX 相关的内容。需要注意的是，虽然软件的使用教程以及排错方法也在该专栏，但是还是请查看专栏《软件/程序教程》，一些小问题可以查看专栏《非硬件小问题》。
+---
+
 {% for blog in site.blogs %}
 {% if blog.category == "SwiftUI" %}
 
@@ -8,10 +13,6 @@
 </li>
 {% endif %}
 {% endfor %}
----
-title: 学习
-info: UNIX 相关的内容就在该专栏，包括但不限于 Linux 各种发行版（包括 WSL）、macOS、bash、原理等 UNIX 相关的内容。需要注意的是，虽然软件的使用教程以及排错方法也在该专栏，但是还是请查看专栏《软件/程序教程》，一些小问题可以查看专栏《非硬件小问题》。
----
 
 ## Welcome to GitHub Pages
 
