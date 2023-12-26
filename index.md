@@ -5,13 +5,11 @@ tag: 学习
 ---
 
 <ul>
-    123
-    {% for post in site.posts %}
+  {% for post in site.posts %}
     <li>
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        {{ post.excerpt }}
+      <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
-    {% endfor %}
+  {% endfor %}
 </ul>
 
 You can use the [editor on GitHub](https://github.com/dignmodahau/dignmodahau.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
