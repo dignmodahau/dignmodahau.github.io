@@ -2,7 +2,7 @@
 
 #### 分类
 
-{% for categorie in site.categories %}
+{% for categorie in site.categories.CATEGORY %}
 <span>
 {{categorie}}
 </span>
