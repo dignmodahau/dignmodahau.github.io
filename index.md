@@ -2,7 +2,7 @@
 
 {% for categorie in site.categories %}
 <span>
-{{category[0]}}
+{{categorie[0]}}
 </span>
 {% endfor %}
 
