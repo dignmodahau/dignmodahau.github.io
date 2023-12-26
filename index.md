@@ -1,3 +1,13 @@
+{% for blog in site.blogs %}
+{% if blog.category == "SwiftUI" %}
+<li>
+<h2><a class="blog" href="{{ blog.url }}">{{ blog.title }}</a></h2>
+<p class="info">{{ blog.date | date: "%Y-%m-%d" }}</p>
+{{ blog.excerpt }}
+</li>
+{% endif %}
+{% endfor %}
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/dignmodahau/dignmodahau.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
@@ -12,7 +22,9 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 Syntax highlighted code block
 
 # Header 1
+
 ## Header 2
+
 ### Header 3
 
 - Bulleted
