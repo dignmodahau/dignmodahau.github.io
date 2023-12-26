@@ -1,14 +1,13 @@
-#### 标签
-
 #### 分类
 
-{% for categorie in site.categories.CATEGORY %}
+{% for categorie in site.categories %}
 <span>
-{{categorie}}
+{{category[0]}}
 </span>
 {% endfor %}
 
-<h2>文章</h2>
+#### 文章
+
 <ul>
   {% for post in site.posts %}
     <li>
